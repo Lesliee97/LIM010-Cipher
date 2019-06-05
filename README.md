@@ -19,5 +19,5 @@ En mi prototipo de Balsamiq el usuario no sabia donde ba el código ya que los b
 
 ## Prototipo en papel 
 
-![Sin titulo](IMG6618.png)
+![Sin titulo](imgs-readme/IMG6618.png)
 ![Sin titulo](IMG6620.png)
