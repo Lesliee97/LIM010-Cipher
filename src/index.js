@@ -10,10 +10,12 @@ const confirmacion =document.getElementById("enviar");
 
 //funciones para cambiar de paginas
 confirmacion.addEventListener("click", function(){
-    const nombre = document.getElementById("name").value;
+    const nombre = document.getElementById("clave").value;
     //const username= ("Hola" + " " + nombre);
     //document.write = (username);
     primeraPagina.style.display = 'none';
     segundaPagina.style.display = 'block';
    
 });
+
+ 
