@@ -3,13 +3,40 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+       <img src="../imgs-css/logo.png" class="imagen1">
+       <h1>Bienvenidos a Laboratorios LessLab</h1>
+       
+    </header>
+    <main>
+     <div id= "paginaUno">
+      <h2>Por favor introduzca la contraseña para obtener el código de su Paciente</h2> 
+      <input id="clave" type="password" placeholder="Ingresa la contraseña" required>
+      <button id="enviar">Aceptar</button>
+      <img src="../imgs-css/laboratory.png" class="imagen2">
+      </div>
+     <div id="paginaDos">
+      <h3> Por favor introduzca el útimo código de su CMP </h3>
+      <input id= "name2"type="text" placeholder="CMP">
+      <h4>Introduzca el nombre del Paciente</h4>
+      <input id="name3" type="text"placeholder="Nombres y Apellidos">
+      <!--<button id="cifrar">Cifrar</button>
+      <button id="descifrar">Descifrar</button>-->
+      <button type="submit" id="linea">Cifrar</button>
+      <button type="submit" id="linea2">Descifrar</button>
+
+      </div> 
+    </main>
+    <footer>
+
+    </footer>
     <script src="cipher.js"></script>
+
     <script src="index.js"></script>
   </body>
 </html>

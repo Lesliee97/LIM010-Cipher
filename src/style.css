@@ -1,1 +1,71 @@
-/* Acá van tus reglas de estilo */
+body{
+    background-color: #41BAE5;
+
+    font-family: monospace; 
+    /*background-image: url(Firstproyectlab/laboratory@2x.png)no-repeat center top;
+    position: center;*/
+}
+h1{
+    text-align: center;
+    color: #204362;
+    font-size: 30PX;
+    display:block;
+    margin:auto;
+    font-family: 'Pacifico', cursive;
+}
+h2{
+  text-align: center;
+  color: #204362;
+  font-family: 'Bree Serif', serif;
+}
+h3, h4{
+  text-align: center;
+  color: #204362;
+  font-family: 'Bree Serif', serif;
+}
+#enviar {
+    color: white;
+    size: 70px;
+   display: block;
+   margin: auto;
+}
+#name {
+    display: block;
+    margin: auto;
+}
+#name2 {
+    display: block;
+    margin: auto;
+}
+#name3 {
+    display: block;
+    margin: auto;
+}
+#linea{
+    display: block;
+    margin: auto;
+}
+#linea2 {
+    display: block;
+    margin: auto;
+    position: left;
+}
+.imagen1 {
+     height: 150px;
+     width: 300px;
+     display:block;
+     margin:auto;
+}
+ .imagen2 {
+    height:300px;
+    width: 500;
+    size: 200px;
+    display:block;
+    margin:auto;
+}
+button{
+    height: 30px;
+    width: 80px;
+    background: #204362;
+    color: white;
+}/* Acá van tus reglas de estilo */
