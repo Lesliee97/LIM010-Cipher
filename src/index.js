@@ -1,21 +1,21 @@
-//variables de mis paginas
 const primeraPagina =document.getElementById("paginaUno");
 const segundaPagina =document.getElementById("paginaDos");
-
+const nombre = document.getElementById("clave").value;
+const confirmacion =document.getElementById("enviar");
+const back = document.getElementById("Back");
+//funcion cambio de pagina
 primeraPagina.style.display = "block";
 segundaPagina.style.display = "none";
 
-//variables de mis botones
-const confirmacion =document.getElementById("enviar");
-
-//funciones para cambiar de paginas
+//funcion de mi boton
 confirmacion.addEventListener("click", function(){
-    const nombre = document.getElementById("clave").value;
-    //const username= ("Hola" + " " + nombre);
-    //document.write = (username);
     primeraPagina.style.display = 'none';
-    segundaPagina.style.display = 'block';
-   
+    segundaPagina.style.display = 'block';  
 });
+//funcion para regresar a la primera pagina
+back.addEventListener("click",function(){
+    segundaPagina.style.display="none";
+    primeraPagina.style.display="block";
+})
 
- 
+

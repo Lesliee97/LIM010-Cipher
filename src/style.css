@@ -33,20 +33,22 @@ h1{
     font-family: 'Pacifico', cursive;
 }
 h2{
-  text-align: center;
-  color: #204362;
-  font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: #204362;
+    font-family: 'Bree Serif', serif;
 }
 h3, h4{
-  text-align: center;
-  color: #204362;
-  font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: #204362;
+    font-family: 'Bree Serif', serif;
 }
 #enviar {
     color: white;
     size: 70px;
-   display: block;
-   margin: auto;
+    display: block;
+    margin: auto;
+    cursor:pointer;
+    cursor: hand;
 }
 #clave {
     display: block;
@@ -60,14 +62,29 @@ h3, h4{
     display: block;
     margin: auto;
 }
-#linea{
+#name4{
     display: block;
     margin: auto;
 }
+#Back{
+    display: block;
+    margin: auto;
+    cursor:pointer;
+    cursor: hand;
+}
+#linea{
+    display: block;
+    margin: auto;
+    cursor:pointer;
+    cursor: hand;
+   
+  }
 #linea2 {
     display: block;
     margin: auto;
     position: left;
+    cursor:pointer;
+    cursor: hand;
 }
 .imagen1 {
      height: 150px;
