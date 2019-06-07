@@ -25,6 +25,4 @@ En mi prototipo de Balsamiq el usuario no sabia donde ba el código ya que los b
 ## Protoripo de baja fidelidad en Balsamiq
 
 ![Sin titulo](lab1.png)
-![Sin titulo](lab2.png)
-![Sin titulo](lab3.png)
 ![Sin titulo](lab4.png)
