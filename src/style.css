@@ -5,6 +5,13 @@ body{
     /*background-image: url(Firstproyectlab/laboratory@2x.png)no-repeat center top;
     position: center;*/
 }
+.hide{
+    display: none;
+}
+#error{
+    text-align:center;
+    
+}
 h1{
     text-align: center;
     color: #204362;
@@ -54,17 +61,38 @@ h3, h4{
     display: block;
     margin: auto;
 }
-#name2 {
+#cmp{
+    margin-left:600px;
+    width: 55px;
+    height: 20px;
+    padding:8px;
+     border:2.5px solid;
+    border-radius: 6px;
+    font-size: 1.2em; 
     display: block;
-    margin: auto;
-}
+    margin: auto;    
+  } 
+/* input nombre */
 #name3 {
+    height: 15px;
+    border:2.5px solid;
+    border-radius: 4px;
+    font-size: 15px; 
+    display: block;
+    margin: auto;    
     display: block;
     margin: auto;
 }
-#name4{
+/* textarea cifrar */
+#cifrar{
     display: block;
     margin: auto;
+}
+/* textarea descifrar */
+#descifrar {
+    display: block;
+    margin: auto;
+
 }
 #Back{
     display: block;
@@ -72,6 +100,7 @@ h3, h4{
     cursor:pointer;
     cursor: hand;
 }
+/* boton de cifrar */
 #linea{
     display: block;
     margin: auto;
@@ -79,12 +108,13 @@ h3, h4{
     cursor: hand;
    
   }
+  /* boton descifrar */
 #linea2 {
     display: block;
     margin: auto;
-    position: left;
     cursor:pointer;
     cursor: hand;
+   
 }
 .imagen1 {
      height: 150px;
