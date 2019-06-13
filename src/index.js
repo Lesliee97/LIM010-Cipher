@@ -11,14 +11,14 @@ let cifrar = document.getElementById("linea");// variable de mi boton de cifrar
 linea.addEventListener("click", () => { 
     let string = document.getElementById("name3").value.toUpperCase();//variable de  mi input donde el user coloca la infor.
     let offset = parseInt(document.getElementById("cmp").value);// variable de mi numero de desplaamiento
-    document.getElementById("cifrado").innerHTML= cipher.encode(offset,string); //variable de mi textarea 1
+    document.getElementById("cifrado").innerHTML= cipher.encode(offset,string) //variable de mi textarea 1
 });
 
 let descifrar = document.getElementById("linea2");// variable de mi boton de descifrar
  linea2.addEventListener("click",()=>{
     let string = document.getElementById("name3").value.toUpperCase(); // variable de mi input donde el user coloca infor.
     let offset = parseInt(document.getElementById("cmp").value);//variable de mi nro de desplazamiento
- document.getElementById("descifrado").innerHTML= cipher.decode(offset, string);// variable de textarea 2
+ document.getElementById("cifrado").innerHTML= cipher.decode(offset, string);// variable de textarea 2
 });
 
 
