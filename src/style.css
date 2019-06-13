@@ -1,5 +1,5 @@
 body{
-    background-color: #41BAE5;
+    background-color:#41BAE5;
 
     font-family: monospace; 
     /*background-image: url(Firstproyectlab/laboratory@2x.png)no-repeat center top;
@@ -84,12 +84,12 @@ h3, h4{
     margin: auto;
 }
 /* textarea cifrar */
-#cifrar{
+#cifrado{
     display: block;
     margin: auto;
 }
 /* textarea descifrar */
-#descifrar {
+#descifrado{
     display: block;
     margin: auto;
 
