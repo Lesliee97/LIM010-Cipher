@@ -17,12 +17,13 @@ Algunas veces los Pacientes pierden sus resultados entonces es una manera más r
 Mi primer prototipo en papel era dirigido a pacientes pero tenía varios problemas, me sugirieron que sea mejor para Doctores
 
 En mi prototipo de Balsamiq el usuario no sabia donde iba el código ya que los botones de cifrar y descifrar estaban al ultimo.
-Tambien le cambie la posicion de los botones porque a mis usuarios les parecia confuso.
+Tambien le cambie la posicion de los botones porque a mis usuarios les parecia confuso. Tenia dos cajas de textarea, lo que hacia dificil la
 
 ## Prototipo en papel 
 
 ![Sin titulo](imgs-readme/IMG6618.png)
-![Sin titulo](IMG6620.png)
+![IMG6616](https://user-images.githubusercontent.com/50469947/59616650-7ddea100-90ea-11e9-81fb-283e1e83ad7d.png)
+
 
 ## Protoripo de baja fidelidad en Balsamiq
 ![lab2](https://user-images.githubusercontent.com/50469947/59572723-a75ce580-9074-11e9-8dfa-0dfece45a817.png)
