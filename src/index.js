@@ -1,5 +1,3 @@
-
-
 //variables de mis paginas y botones
 const primeraPagina = document.getElementById("paginaUno");
 const segundaPagina = document.getElementById("paginaDos");
@@ -41,8 +39,8 @@ enviar.addEventListener("click", (event) => {
         if (contador === 3) {
             document.getElementById("error").innerHTML = "Lo sentimos, ya no puede ingresar"
 
-        } 
-        
+        }
+
     }
 });
 

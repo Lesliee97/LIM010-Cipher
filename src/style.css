@@ -1,10 +1,10 @@
 body{
-    background-color:#41BAE5;
-
     font-family: monospace; 
+    background-color: #41BAE5;
     /*background-image: url(Firstproyectlab/laboratory@2x.png)no-repeat center top;
     position: center;*/
 }
+
 .hide{
     display: none;
 }
@@ -82,8 +82,7 @@ h3, h4{
 /* input nombre */
 #name3 {
     height: 15px;
-    border:2.5px solid;
-    border-radius: 6px;
+    border-radius: 6px solid;
     font-size: 15px; 
     display: block;
     margin: auto;    
@@ -133,8 +132,7 @@ h3, h4{
     background-image: -ms-linear-gradient(top,  #41BAE5, #204362);
     background-image: -o-linear-gradient(top,  #41BAE5, #204362);
     background-image: linear-gradient(to bottom, #41BAE5, #204362);
-   
-}
+   }
 .imagen1 {
      height: 150px;
      width: 300px;
@@ -147,11 +145,26 @@ h3, h4{
     size: 200px;
     display:block;
     margin:auto;
-
+}
+.imagen3 {
+    position: relative;
+    right: 300px;
+    size: 100px;
 }
 button{
     height: 30px;
     width: 80px;
     background: #204362;
     color: white;
-}/* Acá van tus reglas de estilo */
+}
+footer {
+		text-align:left;
+    color: rgb(211, 33, 33);
+		font-family: 'Patrick Hand', cursive;
+		font-weight: 700;
+		-webkit-text-stroke: 2em black;
+}
+#leslie{
+    color: #e64980;
+    background-color: #41BAE5;
+}

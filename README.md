@@ -8,14 +8,16 @@ Primero van a ingresar con la contraseña del Laboratorio. Despues los va a diri
 
 ## 2.Explicar cómo el producto soluciona los problemas/necesidades de dichos usuarios.
 
-Los usuarios (médicos) pueden acceder de una manera más rápida y personalizada a los datos de sus pacientes.
-Muchas veces los Pacientes tienen que 
+Los usuarios (médicos) pueden acceder de una manera más rápida y personalizada a los datos de sus pacientes.El cifrado varia de acuerdo al código del CMP del Médico .
+Algunas veces los Pacientes pierden sus resultados entonces es una manera más rápida para que el médico acceda a esos resultados y ahorrar tiempo .
+
 
 ## 3.- Agregar un resumen del feedback recibido indicando las mejoras a realizar de su prototipo en papel
 
 Mi primer prototipo en papel era dirigido a pacientes pero tenía varios problemas, me sugirieron que sea mejor para Doctores
 
-En mi prototipo de Balsamiq el usuario no sabia donde ba el código ya que los botones de cifrar y descifrar estaban al ultimo.
+En mi prototipo de Balsamiq el usuario no sabia donde iba el código ya que los botones de cifrar y descifrar estaban al ultimo.
+Tambien le cambie la posicion de los botones porque a mis usuarios les parecia confuso.
 
 ## Prototipo en papel 
 
@@ -23,6 +25,5 @@ En mi prototipo de Balsamiq el usuario no sabia donde ba el código ya que los b
 ![Sin titulo](IMG6620.png)
 
 ## Protoripo de baja fidelidad en Balsamiq
-
-![Sin titulo](lab1.png)
-![Sin titulo](lab4.png)
+![lab2](https://user-images.githubusercontent.com/50469947/59572723-a75ce580-9074-11e9-8dfa-0dfece45a817.png)
+![lab3](https://user-images.githubusercontent.com/50469947/59572724-a75ce580-9074-11e9-81aa-941e0e4eaca2.png)
