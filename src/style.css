@@ -151,6 +151,12 @@ h3, h4{
     right: 300px;
     size: 100px;
 }
+button{
+    height: 30px;
+    width: 80px;
+    background: #204362;
+    color: white;
+}
 footer {
 		text-align:left;
     color: rgb(211, 33, 33);
