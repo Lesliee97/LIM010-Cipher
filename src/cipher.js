@@ -5,10 +5,8 @@ window.cipher = {
       let ascii = string.charCodeAt(i);
       if (65 <= ascii && ascii <= 90) {
         result1 += String.fromCharCode((ascii - 65 + offset) % 26 + 65); // formula de desplazamiento de nuestro mensaje
-      } else if (ascii === 32) {
+      } else if (ascii === 32)
         result1 += " ";
-      }
-
     }
     return result1;
   },
@@ -20,9 +18,8 @@ window.cipher = {
       let ascii = string.charCodeAt(i);
       if (65 <= ascii && ascii <= 90) {
         result2 += String.fromCharCode((ascii + 65 - offset) % 26 + 65);
-      } else if (ascii === 32) {
+      } else if (ascii === 32)
         result2 += " ";
-      }
     }
     return result2;
   }
