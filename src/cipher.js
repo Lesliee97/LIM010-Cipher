@@ -11,11 +11,14 @@ window.cipher = {
 =======
       if (65 <= ascii && ascii <= 90) {
         result1 += String.fromCharCode((ascii - 65 + offset) % 26 + 65); // formula de desplazamiento de nuestro mensaje
-      } else if (ascii === 32) {
+      } else if (ascii === 32)
         result1 += " ";
+<<<<<<< HEAD
       }
 
 >>>>>>> 0bd8610fea0e7ab8fcd5b465820755ad34805edc
+=======
+>>>>>>> 2504599a758751beb54c541b20470e6b30ceb6fb
     }
     return result1;
   },
@@ -33,10 +36,13 @@ window.cipher = {
 =======
       if (65 <= ascii && ascii <= 90) {
         result2 += String.fromCharCode((ascii + 65 - offset) % 26 + 65);
-      } else if (ascii === 32) {
+      } else if (ascii === 32)
         result2 += " ";
+<<<<<<< HEAD
       }
 >>>>>>> 0bd8610fea0e7ab8fcd5b465820755ad34805edc
+=======
+>>>>>>> 2504599a758751beb54c541b20470e6b30ceb6fb
     }
     return result2;
   }

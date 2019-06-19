@@ -2,28 +2,27 @@
 const primeraPagina = document.getElementById("paginaUno");
 const segundaPagina = document.getElementById("paginaDos");
 let contador = 0;
-
+const error = document.getElementById("error");
+const user = document.getElementById("user");//variable de mi input
+const offset = document.getElementById("cmp");// variable de mi offset
 const cifrado = document.getElementById("cifrado");//variable de mi textarea1
-//const descifrado = document.getElementById("descifrado");
-const name3 = document.getElementById("name3");//variable de mi input
-const offset = document.getElementById("cmp");
 //variable de mis botones
 const enviar = document.getElementById("enviar");
 const btnclear = document.getElementById("back");
+let cifrar = document.getElementById("linea");
+let descifrar = document.getElementById("linea2");
 
-//FUNCIONES  de mi cipher
-let cifrar = document.getElementById("linea");// variable de mi boton de cifrar
+//funcione de mi cipher // cifrar
 cifrar.addEventListener("click", () => {
-    let string = document.getElementById("name3").value.toUpperCase();//variable de  mi input donde el user coloca la infor.
+    let string = document.getElementById("user").value.toUpperCase();//variable de  mi input "nombre"
     let offset = parseInt(document.getElementById("cmp").value);// variable de mi numero de desplaamiento
-    document.getElementById("cifrado").innerHTML = cipher.encode(offset, string); //variable de mi textarea 1
+   document.getElementById("cifrado").innerHTML = cipher.encode(offset, string); //variable de mi textarea 1
 });
-
-let descifrar = document.getElementById("linea2");// variable de mi boton de descifrar
+//descifrar
 descifrar.addEventListener("click", () => {
-    let string = document.getElementById("name3").value.toUpperCase(); // variable de mi input donde el user coloca infor.
+    let string = document.getElementById("user").value.toUpperCase(); // variable de mi input "nombre".
     let offset = parseInt(document.getElementById("cmp").value);//variable de mi nro de desplazamiento
-    document.getElementById("cifrado").innerHTML = cipher.decode(offset, string);// variable de textarea 2
+   document.getElementById( "cifrado").innerHTML = cipher.decode(offset, string);// variable de textarea 1
 });
 //funcion de mi log in 
 enviar.addEventListener("click", (event) => {
@@ -35,17 +34,15 @@ enviar.addEventListener("click", (event) => {
         segundaPagina.classList.remove("hide");
     } else {
         contador = contador + 1;
-        document.getElementById("error").innerHTML = "Upss contraseña incorrecta"
+        error.innerHTML = "Upss contraseña incorrecta"
         if (contador === 3) {
-            document.getElementById("error").innerHTML = "Lo sentimos, ya no puede ingresar"
-
-        }
-
+        error.innerHTML = "Lo sentimos, ya no puede ingresar"
+      }
     }
 });
 
 btnclear.addEventListener("click", () => {
-    name3.value = null;
+    user.value = null;
     cifrado.innerHTML = null;
     offset.value = null;
 })
