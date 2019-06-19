@@ -3,12 +3,10 @@ window.cipher = {
     let leslie = "";
     for (let i = 0; i < string.length; i++) {
       let ascii = string.charCodeAt(i);
-      if (65 <= ascii && ascii <= 90) {
+      if (65 <= ascii && ascii <= 90)
         leslie += String.fromCharCode((ascii - 65 + offset) % 26 + 65); // formula de desplazamiento de nuestro mensaje
-      } else if (ascii === 32) {
+      else if (ascii === 32)
         leslie += " ";
-      }
-
     }
     return leslie;
   },
@@ -18,11 +16,10 @@ window.cipher = {
     let rosario = "";
     for (let i = 0; i < string.length; i++) {
       let ascii = string.charCodeAt(i);
-      if (65 <= ascii && ascii <= 90) {
+      if (65 <= ascii && ascii <= 90)
         rosario += String.fromCharCode((ascii + 65 - offset) % 26 + 65);
-      } else if (ascii === 32) {
+      else if (ascii === 32)
         rosario += " ";
-      }
     }
     return rosario;
   }
