@@ -5,9 +5,9 @@ window.cipher = {
       let ascii = string.charCodeAt(i);
 <<<<<<< HEAD
       if (65 <= ascii && ascii <= 90)
-        leslie += String.fromCharCode((ascii - 65 + offset) % 26 + 65); // formula de desplazamiento de nuestro mensaje
+        result1 += String.fromCharCode((ascii - 65 + offset) % 26 + 65); // formula de desplazamiento de nuestro mensaje
       else if (ascii === 32)
-        leslie += " ";
+        result1 += " ";
 =======
       if (65 <= ascii && ascii <= 90) {
         result1+= String.fromCharCode((ascii - 65 + offset) % 26 + 65); 
@@ -33,9 +33,9 @@ window.cipher = {
       let ascii = string.charCodeAt(i);
 <<<<<<< HEAD
       if (65 <= ascii && ascii <= 90)
-        rosario += String.fromCharCode((ascii + 65 - offset) % 26 + 65);
+        result2 += String.fromCharCode((ascii + 65 - offset) % 26 + 65);
       else if (ascii === 32)
-        rosario += " ";
+        result2 += " ";
 =======
       if (65 <= ascii && ascii <= 90) {
         result2 += String.fromCharCode((ascii + 65 - offset) % 26 + 65);
