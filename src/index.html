@@ -12,35 +12,66 @@
 
 <body>
   <header>
-    <img src="../imgs-css/logo.png" class="imagen1" alt="logo">
-    <h1>Bienvenidos a Laboratorios LessLab</h1>
   </header>
   <main>
     <!--div de mi primera pagina de login-->
-    <div id="paginaUno">m
-      <h2>Por favor introduzca la contraseña para obtener el código de su Paciente</h2>
-      <div id="error"></div>
-      <input id="clave" type="password" class="clave" placeholder="Ingresa la contraseña">
-      <button id="enviar" type="submit">Aceptar</button>
-      <img src="../imgs-css/laboratory.png" class="imagen2" alt="laboratorio">
+    <div id="paginaUno">
+      
+      <div class="container" id = "contenedor">
+        <div class="img">
+          <img src="../imgs-css/doctors.svg" class"img>
+        </div>
+        <div class="login-container">
+          <form action="index.html">
+            <img src="../imgs-css/undraw_female_avatar_l3ey.svg" class="avatar">
+            <h2>Bienvenidos</h2>
+            <div class="input-div one focus">
+              <div class="i">
+
+              </div>
+              <!-- <div>
+                
+                <h5>Username</h5>
+                <input class="input" type="text" id="username" value="">
+              </div> -->
+            </div>
+            <div class="input-div two focus">
+              <div class="i">
+                <!-- aqui ira un icon -->
+              </div>
+              <div>
+                <h5>Contraseña</h5>
+                <input class="input" type="password" id="clave" value="LABORATORIA">
+              </div>
+            </div>
+            <div id="error"></div>
+            <!-- <input type="submit" class="btn" value=""> -->
+            <button type="submit" class="btn"  id="enviar" >Login</button>
+          </form>
+        </div>
+      </div>
     </div>
 
     <!-- div de mi segunda pagina -->
     <div id="paginaDos" class="hide ">
-      <h3> Por favor introduzca el útimo código de su CMP </h3>
-      <input id="cmp" type="number" min="0" placeholder="CMP" />
-      <h4>Introduzca el nombre del Paciente</h4>
-      <input id="user" type="text" placeholder="Nombre y Apellido">
+      <form class="formulario">
+      <p> Por favor introduzca el útimo código de su CMP </p>
+      <input id="cmp" type="number" min="0" placeholder="CMP">
+      <p>Introduzca el nombre del Paciente</p>
+      <input id="user" type="text" placeholder="Nombre y Apellido"> 
+      </form>
       <!--div de mi caja de criptar-->
-      <div>
+      <div class="cifrado">
         <button id="linea" type="button"> Cifrar</button>
         <br>
         <button id="linea2" type="button">Descifrar</button>
         <br>
         <textarea id="cifrado"></textarea>
         <br>
-        <button id="back" type="button">CLEAR</button>
+        <button id="back" type="button">CLEAR</button> 
+        <img src="../imgs-css/undraw_medicine_b1ol (1).svg" class="doctors"> 
       </div>
+    </div>
     </div>
   </main>
   <footer> By Leslie Rodriguez </footer>
